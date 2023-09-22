@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img-index/logo tekin.jpeg" type="image/x-icon">
     <style>
+      *{
+        margin: 0;
+        padding: 0;
+      }
        body{
             background-color: cornflowerblue;
           }
@@ -14,59 +18,56 @@
             text-align: center;
             font-family: sans-serif;
             border-radius: 30px;
-            padding: 10px;
-            margin-top: -8px;
+            padding: 0.7rem;
             border: 3px solid white;
-            margin-bottom: 50px;
+            margin-bottom: 1.5rem;
             }
            
-            #ite{
-              width: 200px;
-              height: 200px;
-              border: 4px solid grey;
+            .ite{
+              width: 12rem;
+              height: 12rem;
+              border: 3px solid grey;
               
             }
-            .imagens{
+            
+            .img-one, .img-two{
               align-items: center;
-              text-align: center
-              
-              
+              text-align: center;
             }
             .itens{
               display: flex;
               list-style: none;
-              font-size: 20px;
-              margin-bottom: 50px;
-              margin-left: 258px;
-              
+              font-size: 1rem;
+              justify-content: center;
+              margin-bottom: 1.5rem;
             }
             li{
-              padding-right:30px;
+             
               list-style: none;
               font-family:sans-serif ;
-        }
-            #it{
+            }
+            .it{
               background-color: white;
               color: darkblue;
-              margin-right: 10px;
+              margin-right: 0.3rem;
               border-radius: 20px;
-              padding: 6px;
+              padding: 0.5rem;
               border: 3px solid grey;
-
             }
             .rodape{
-              align-items: center;
-              text-align: left;
-              
+              display:block;
+              justify-content: left;
+              flex-direction: column;
+              margin-bottom: 0.5rem;
+              margin-left: 1rem;
             }
             #help{
-              margin-left: 10px;
+              color:red;
               font-family: sans-serif;
-              
             }
-            #ajuda{
-              width: 80px;
-              margin-left: 29px;
+            #zap{
+              width: 5rem;
+              margin-left: 1.3rem;
             }
     </style>
    <title>Acessórios para smartphones</title>
@@ -75,21 +76,24 @@
    
     <h1>Tudo para seu smartphone</h1>
     <ul class="itens">
-        <li id="it">Cabos usb</li>
-        <li id="it">Capinhas</li>
-        <li id="it">Carregadores</li>
-        <li id="it">Fones</li>
+        <li class="it">Cabos usb</li>
+        <li class="it">Capinhas</li>
+        <li class="it">Carregadores</li>
+        <li class="it">Fones</li>
        
     </ul>
   <div class="imagens">
-    <img id="ite" src="img cell/cabo.png" alt="">
-    <img id="ite" src="img cell/capinha.jfif" alt="">
-    <img id="ite" src="img cell/carregador.jfif" alt="">
-    <img id="ite" src="img cell/fone.jpg" alt="">
+    <div class="img-one">
+    <img class="ite" src="img cell/cabo.png" alt="">
+    <img class="ite" src="img cell/capinha.jfif" alt="">
+  </div>
+  <div class="img-two">
+    <img class="ite" src="img cell/carregador.jfif" alt="">
+    <img class="ite" src="img cell/fone.jpg" alt="">
   </div>
   <footer class="rodape">
     <h3 id="help">Posso ajudar?</h3>
-    <a href="https://wa.me/5585992035927"><img id="ajuda" src="whatsapp-icon.png" alt=""></a>
+    <a href="https://wa.me/5585992035927"><img id="zap" src="whatsapp-icon.png" alt=""></a>
   </footer>
 </body>
 </html>
