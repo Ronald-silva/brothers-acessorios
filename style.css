@@ -44,9 +44,7 @@ h1{
     width: 19rem;
     border:5px solid white;
 }
-main{
-    padding-bottom: -10rem;
-}
+
 
 li, a{
     text-decoration: none;
