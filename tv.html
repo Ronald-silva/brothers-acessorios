@@ -57,21 +57,26 @@
               border: 3px solid grey;
             }
             .rodape{
-              display:block;
-              justify-content: left;
-              flex-direction: column;
-              margin-bottom: 0.5rem;
-              margin-left: 1rem;
-            }
-            #help{
-              color:red;
-              font-family: sans-serif;
-            }
-            #zap{
-              width: 5rem;
-              margin-left: 1.3rem;
-              
-            }
+              display:flex;
+              justify-content: center;
+              background-color: darkgrey;
+              position: absolute;
+              width: 100%;
+              bottom: 0px;
+              padding: 1rem 0 1rem 0;
+              }
+              a{
+                color: red;
+                font-size: 1.5rem;
+                text-decoration: none;
+                font-weight: bold;
+                font-family: sans-serif;
+              }
+              a:hover{
+                color: crimson;
+                text-decoration: underline;
+                
+              }
 
 
     </style>
@@ -94,9 +99,8 @@
         <img class="ite" src="img-tv/video game.jfif" alt="">
     </div>
     <footer class="rodape">
-      <h3 id="help">Posso ajudar?</h3>
       <a href="https://wa.me/5585992035927">
-        <img id="zap" src="whatsapp-icon.png" alt="">
+        Posso ajudar?
       </a>
     </footer>
 </body>

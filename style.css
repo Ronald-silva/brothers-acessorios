@@ -3,8 +3,7 @@
     padding: 0;
 }
 body{
-    height:auto;
-    
+    min-height: 100vh;
     background-color:cornflowerblue;
     text-align: center;
     display: flex;
@@ -14,7 +13,7 @@ h1{
     text-align: center;
     color: white;
     font-family: sans-serif;
-    font-size:2.7rem;
+    font-size:2.4rem;
 }
 #solucao{
     color:crimson;
@@ -35,6 +34,9 @@ h1{
     display: flex;
     justify-content:space-evenly;
     font-family: sans-serif;
+}
+main{
+    flex: 1 1 0;
 }
 #logo{
     margin:3rem 0 3rem 0;
@@ -63,6 +65,13 @@ li a:hover{
 .icones-rodape{
     display: flex;
     justify-content:center;
+}
+footer{
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    
+
 }
 
 
